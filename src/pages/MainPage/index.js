@@ -18,7 +18,7 @@ function Main() {
 
 
     let getWeather = async (lat, long) => {
-        let response = await axios.get("http://api.openweathermap.org/data/2.5/weather", {
+        let response = await axios.get("https://api.openweathermap.org/data/2.5/weather", {
             params: {
                 lat: lat,
                 lon: long,

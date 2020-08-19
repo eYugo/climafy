@@ -14,7 +14,7 @@ function OtherRegionDiv({ weather, onClick }) {
     const [time, setTime] = useState(false);
 
     let getTime = async (lat, lon) => {
-        let response = await axios.get("http://api.timezonedb.com/v2.1/get-time-zone", {
+        let response = await axios.get("https://api.timezonedb.com/v2.1/get-time-zone", {
             params: {
                 key: process.env.REACT_APP_OPEN_TIMEZONE_KEY,
                 by: 'position',

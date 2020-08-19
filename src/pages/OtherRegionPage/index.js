@@ -35,7 +35,7 @@ function OtherRegionPage() {
     }
 
     let getWeather = async (cidade, pais) => {
-        let res = await axios.get("http://api.openweathermap.org/data/2.5/weather", {
+        let res = await axios.get("https://api.openweathermap.org/data/2.5/weather", {
             params: {
                 q: cidade, pais,
                 appid: process.env.REACT_APP_OPEN_WHEATHER_KEY,
