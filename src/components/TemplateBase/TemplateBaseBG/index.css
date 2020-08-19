@@ -1,0 +1,132 @@
+.bg-clear-morning{
+  background-color: #fffcc9;
+  background-image: url(./Images/clear-morning.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:top;
+}
+.bg-clear-noon{
+    background-color: #ffeda2;
+  background-image: url(./Images/clear-noon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:bottom;
+}
+.bg-clear-afternoon{
+  background-color: #fac55b;
+  background-image: url(./Images/clear-afternoon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:top;
+}
+.bg-clear-night{
+  background-color: #35537e;
+  background-image: url(./Images/clear-night.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:center;
+
+}
+.bg-snow-morning{
+  background-color: #ecece8;
+  background-image: url(./Images/snow-morning.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:center;
+
+}
+.bg-snow-noon{
+  background-color: #d4d4d2;
+  background-image: url(./Images/snow-noon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:center top;
+
+}
+.bg-snow-afternoon{
+  background-color: #a3a8a6;
+  background-image: url(./Images/snow-afternoon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:center;
+
+}
+.bg-snow-night {
+  background-color: #5e6165;
+  background-image: url(./Images/snow-night.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:top;
+
+}
+.bg-rain-morning {
+  background-color: #c5e2f7;
+  background-image: url(./Images/rain-morning.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:center top;
+
+}
+.bg-rain-noon {
+  background-color: #92bad2;
+  background-image: url(./Images/rain-noon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:top;
+
+}
+.bg-rain-afternoon {
+  background-color: #53789e;
+  background-image: url(./Images/rain-afternoon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:center top;
+
+}
+.bg-rain-night {
+  background-color: #395877; 
+  background-image: url(./Images/rain-night.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:center;
+
+}
+.bg-cloud-morning{
+  background-color: #dcecff;
+  background-image: url(./Images/cloud-morning.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:bottom;
+}
+.bg-cloud-noon{
+  background-color: #c4cde5;
+  background-image: url(./Images/cloud-noon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:middle;
+
+}
+.bg-cloud-afternoon{
+  background-color: #c4c7f2;
+  background-image: url(./Images/cloud-afternoon.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position:bottom;
+
+
+}
+.bg-cloud-night{
+  /* background-color: #706f84; */
+  /* background-color: #655f76; */
+  background-image: url(./Images/cloud-night.jpg);
+  background-size: cover;
+  height: 100vh;
+
+}
+.bg-default-default{
+  /* background-color: #adcfdd;*/
+  background-image: url(./Images/default.jpg);
+  background-size: cover;
+  height: 100vh;
+
+}

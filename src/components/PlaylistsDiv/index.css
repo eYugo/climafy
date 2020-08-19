@@ -1,0 +1,31 @@
+.iframe {
+    display: block;
+    width: 100%;
+  
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+  
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+
+  
+    /* box-shadow: 2px 2px rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 10px 10px 10px #888888; */
+    -moz-box-shadow: 0 0 5px 3px #9d9d9d;
+    -webkit-box-shadow: 0 0 3px 5px #9d9d9d;
+    box-shadow: 0 0 5px 3px #9d9d9d;
+
+    color: #313131;
+    font-size: 15px;
+  
+    transition: 0.4s ease;
+  }
+
+  
+  .outershadow1 {
+    -moz-box-shadow: 0 0 5px 3px #9d9d9d;
+    -webkit-box-shadow: 0 0 3px 5px #9d9d9d;
+    box-shadow: 0 0 5px 3px #9d9d9d;
+    }

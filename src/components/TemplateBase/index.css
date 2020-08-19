@@ -1,0 +1,22 @@
+.corpo{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+  }
+  
+  .header-css{
+    width: auto;
+  }
+  .header-css h1{
+
+    font-weight: 400;
+    font-size: 60px;
+  }
+  .wh{
+    color: whitesmoke;
+  }
+  .linha1{
+    border-top: 1px solid ;
+    width:70%
+  }
