@@ -100,10 +100,10 @@ function PlaylistsLists({ weatherName, dayPeriod }) {
                 break;
             case weatherName === "rain" && dayPeriod === "night":
                 setPlaylists({
-                    playlist1: "https://open.spotify.com/embed/playlist/37i9dQZF1DXbcPC6Vvqudd",
+                    playlist1: "https://open.spotify.com/embed/playlist/37i9dQZF1DX4wta20PHgwo",
                     playlist2: "https://open.spotify.com/embed/playlist/4SFVHvEb3ZLTcoeHatpAEV",
-                    playlist3: "https://open.spotify.com/embed/playlist/37i9dQZF1DX4aYNO8X5RpR",
-                    playlist4: "https://open.spotify.com/embed/playlist/4B8JZ0yEndvaNhRSropYaT",
+                    playlist3: "https://open.spotify.com/embed/playlist/37i9dQZF1DX692WcMwL2yW",
+                    playlist4: "https://open.spotify.com/embed/playlist/37i9dQZF1DWZd79rJ6a7lp",
                 })
                 break;
             case weatherName === "snow" && dayPeriod === "morning":
