@@ -24,4 +24,11 @@
   .search-box .search-bar:focus {
     background-color: white;
   }
-  
+  .search-box{
+    padding: 10px 30%;
+  }
+  @media only screen and (max-width: 1000px) {
+    .search-box{
+      padding: 10px 0px;
+    }
+  }

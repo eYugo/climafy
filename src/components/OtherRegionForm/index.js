@@ -4,8 +4,8 @@ import './index.css';
 function OtherRegionForm({ handleChange, handleSubmit, location }) {
     return (
         <>
-            <div className="container-sm text-center row">
-                <form onSubmit={handleSubmit} className="col-5 mx-auto">
+            <div className="container-sm text-center">
+                <form onSubmit={handleSubmit} className=" mx-auto">
                     <h2>Outra Região</h2>
                     <div className="search-box m-5">
                         <input
