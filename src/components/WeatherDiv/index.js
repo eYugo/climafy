@@ -52,7 +52,7 @@ function WeatherDiv({ weather }) {
     return (
         <div className="text-center">
             <h2>Clima em {weather.name}:</h2>
-            <div className="row w-content align-middle">
+            <div className="row w-content">
                 <div className="col mx-auto">
                     <i className={`wi ${icon} display-1 m-3`} />
                     <p className="description">{weather.weather["0"]["description"]}</p>

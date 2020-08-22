@@ -148,18 +148,18 @@ function PlaylistsLists({ weatherName, dayPeriod }) {
         <>
             <h2 className="mt-4">Playlists recomendadas:</h2>
             <div className="row mt-5 text-center">
-                <div className="col mr-2">
+                <div className="col-md m-2">
                     <iframe title="Spotify Playlist" className="iframe" src={playlists.playlist1} width="100%" height="600" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
-                <div className="col ml-2 ">
+                <div className="col-md m-2">
                     <iframe title="Spotify Playlist" className="iframe" src={playlists.playlist2} width="100%" height="600" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
-            <div className="row mt-5 mb-4">
-                <div className="col mr-2">
+            <div className="row mt-4 mb-4">
+                <div className="col-md m-2">
                     <iframe title="Spotify Playlist" className="iframe" src={playlists.playlist3} width="100%" height="600" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
-                <div className="col ml-2">
+                <div className="col-md m-2">
                     <iframe title="Spotify Playlist" className="iframe" src={playlists.playlist4} width="100%" height="600" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>

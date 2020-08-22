@@ -59,9 +59,10 @@ function Main() {
     else if (weather === false) {
         return (
             <TemplateBase weather={weather} time={time}>
-                <div className="text-center">
+                <div className="text-center mt-5">
+                    <div className="loader mx-auto"></div>
                     <h1>
-                        Carregando o clima...
+                        Carregando
                     </h1>
                 </div>
             </TemplateBase>
@@ -73,7 +74,7 @@ function Main() {
                 <div className="text-center" >
                     <WeatherDiv weather={weather} />
                     <h2>Horário: </h2>
-                    <div className="time">{time[0]}:{time[1]}</div>
+                    <div className="time">{("0" + time[0]).slice(-2)}:{("0" + time[1]).slice(-2)}</div>
                     <PlaylistsDiv weather={weather} time={time} />
                 </div>
             </TemplateBase>

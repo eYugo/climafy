@@ -14,3 +14,29 @@ code {
 h2{
   font-size: 40px;
 }
+/* .loader{
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-left-color: transparent;
+  animation: rotate 1.4s ease 0.5s infinite;
+}
+@keyframes rotate{
+  0%{
+    transform: rotate(360deg);
+  }
+} */
+.loader {
+  border: 1.5px solid transparent;
+  border-radius: 50%;
+  border-top: 1.5px solid #292b2c;
+  width: 50px;
+  height: 50px;
+  animation: rotate 0.8s ease 0.4s infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

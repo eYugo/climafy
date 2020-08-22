@@ -34,8 +34,9 @@ function OtherRegionDiv({ weather, onClick }) {
     if (time === false) {
         return (
             <TemplateBase weather={weather} time={time} >
-                <div className="text-center">
-                    <h1>Carregando ...</h1>
+                <div className="text-center mt-5">
+                    <div className="loader mx-auto"></div>
+                    <h1>Carregando</h1>
                 </div>
             </TemplateBase >
         )
