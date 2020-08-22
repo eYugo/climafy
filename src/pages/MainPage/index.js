@@ -44,7 +44,7 @@ function Main() {
     if (location === false) {
         return (
             <TemplateBase weather={false} time={time}>
-                <div className="text-center">
+                <div className="text-center mt-5">
                     <h4>
                         Para mostrar sua região você precisa habilitar a localização no browser
                     </h4>
